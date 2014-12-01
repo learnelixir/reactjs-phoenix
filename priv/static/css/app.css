@@ -1,0 +1,48 @@
+body {
+  padding: 60px 15px;
+}
+.animate-enter {
+  opacity    : 0.01;
+  transition : all .5s ease-in;
+}
+ 
+.animate-enter.animate-enter-active {
+  opacity : 1;
+}
+ 
+.animate-leave {
+  opacity    : 1;
+  transition : all .5s ease-in;
+}
+ 
+.animate-leave.animate-leave-active {
+  opacity : 0.01;
+}
+
+.animate-leave.animate-leave-active > div {
+  position: absolute;
+  top: -100000px;
+  transition: margin-top 0s 2s;
+}
+ 
+a {
+  cursor : pointer;
+  color  : blue;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  color: #2a6496;
+}
+
+div#content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+span.author {
+  color: #777;
+}

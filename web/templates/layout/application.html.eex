@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hello Phoenix!</title>
+    <link rel="stylesheet" href="/css/phoenix.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <script src="http://fb.me/react-0.12.0.js"></script>
+    <script src="http://fb.me/JSXTransformer-0.12.0.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+    <script src="/js/app.js" type='text/jsx'></script>
+  </head>
+
+  <body>
+    <div id='navigation'></div>
+    <div id='content'></div>
+  </body>
+</html>
